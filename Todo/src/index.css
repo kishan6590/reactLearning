@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.addTask {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.addTask input {
+  font-size: 2em;
+  margin-right: 20px;
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 3px rgb(88, 79, 79);
+  padding-left: 10px;
+  padding-block: 10px;
+  border-radius: 6px;
+}
+.addTask button {
+  font-size: 1.5em;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(121, 146, 146);
+  color: azure;
+  cursor: pointer;
+}
+.addTask button:hover {
+  background-color: rgb(80, 99, 99);
+}
+.taskList {
+  margin-top: 50px;
+  margin-inline: 30px;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 87%;
+}
+.taskList h3 {
+  box-shadow: 1px 1px 4px rgba(180, 174, 174, 0.759);
+  margin: 5px 0px;
+  padding: 5px;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.delBtn {
+  font-size: 0.5em;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(192, 240, 240);
+  color: azure;
+  cursor: pointer;
+   color: black;
+}
+.delBtn:hover {
+  background-color: rgb(82, 139, 139);
+  color: #ffffff;
+}
